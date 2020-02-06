@@ -29,7 +29,7 @@ if( $id_cicerone != $_SESSION['id']){
 }
 ?>
 <!DOCTYPE html>
-<html class="no-js"> <!--<![endif]-->
+<html class="no-js" lang="en"> <!--<![endif]-->
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="description" content="">
@@ -72,7 +72,7 @@ if( $id_cicerone != $_SESSION['id']){
       <div class="row">
         <div class="contact-form col-md-8 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="250ms">
           <div class="title text-center wow fadeIn" data-wow-duration="1500ms" >
-            <font size ="70" face="Patrick Hand">LA TUA <span class="color">ATTIVITÀ</span></font>
+            LA TUA <span class="color">ATTIVITÀ</span>
             <div class="border"></div>
           </div>
           <div class="wrap-about" align="center">
@@ -122,7 +122,7 @@ if( $id_cicerone != $_SESSION['id']){
                   <label for="cadenza">Ogni quanti giorni sarà ripetuta?</label>
                   <input required class="form-control" style="font-size: 20px;" id="cadenza" type="number" name="cadenza" value="<?=$cadenza?>" min=1>
                 </div>
-                	<button type="submit" style="background-color:#333333" class="btn btn-primary" name="modifica-attivita"><font color="white">Modifica Attività</font></button>
+                	<button type="submit" style="background-color:#333333" class="btn btn-primary" name="modifica-attivita">Modifica Attività</button>
               </form>
             </h3>
           </div>

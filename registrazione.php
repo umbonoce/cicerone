@@ -1,6 +1,6 @@
 <?php include 'server.php' ?>
 <!DOCTYPE html>
-<html class="no-js"> <!--<![endif]-->
+<html class="no-js" lang="it"> <!--<![endif]-->
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="description" content="">
@@ -41,7 +41,7 @@
     <div class="container">
       <div class="row">
         <div class="title text-center wow fadeIn" data-wow-duration="1500ms" >
-          <font size ="70" face="Patrick Hand">PERCHÈ <span class="color">ISCRIVERSI</span>&nbsp?</font>
+          PERCHÈ <span class="color">ISCRIVERSI</span>
           <div class="border"></div>
         </div>
         <div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms" >
@@ -82,12 +82,12 @@
                 <label for="conferma-password">Conferma Password</label>
                 <input required type="password" style="font-size: 20px;" class="form-control" id="conferma-password" name="conferma-password" placeholder="Password">
               </div>
-                	<button type="submit" style="background-color:#333333" class="btn btn-primary" name="registrazione_utente"><font color="white">Conferma Registrazione</font></button>
+                	<button type="submit" style="background-color:#333333" class="btn btn-primary" name="registrazione_utente">Conferma Registrazione</button>
 
             </form>
           </h3>
           <h3>
-                	<button type="submit" style="background-color:#333333" class="btn btn-primary" onclick="window.location.href = '/index.php';"><font color="white">Annulla</font></button>
+                	<button type="submit" style="background-color:#333333" class="btn btn-primary" onclick="window.location.href = '/index.php';">Annulla</button>
           </h3>
         </div>
       </div>

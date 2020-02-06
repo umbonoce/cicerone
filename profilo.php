@@ -79,7 +79,7 @@ if ($stmt = $link->prepare('SELECT a.id, a.titolo, u.nome, u.cognome, commento, 
   } 
 ?>
 <!DOCTYPE html>
-<html class="no-js">
+<html class="no-js" lang="it">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="description" content="">
@@ -132,10 +132,10 @@ if ($stmt = $link->prepare('SELECT a.id, a.titolo, u.nome, u.cognome, commento, 
                   <label for="cognome">Data Di Nascita</label>
                   <i class="fas fa-edit"></i><input required type="date" style="font-size: 20px;" class="form-control" id="data-di-nascita" name="data-di-nascita" value="<?php echo $data_di_nascita ?>">
                   <br>                 
-                <button type="submit" style="background-color:#333333" class="btn btn-primary" name="aggiorna-profilo"><font color="white">Aggiorna Informazioni</font></button>
+                <button type="submit" style="background-color:#333333" class="btn btn-primary" name="aggiorna-profilo">Aggiorna Informazioni</button>
               </form>
       		<?php if ($_SESSION['id'] == $_GET['id']): ?>
-                <button type="submit" style="background-color:#b30000" class="btn btn-danger" name="aggiorna-profilo" onclick="location.href='/logout.php'"><font color="white">Logout</font></button>
+                <button type="submit" style="background-color:#b30000" class="btn btn-danger" name="aggiorna-profilo" onclick="location.href='/logout.php'">Logout</button>
               	<?php endif ?>
               <?php else: ?>
                 <h3>Nome: <?= $nome ?></h3>

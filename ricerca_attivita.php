@@ -1,6 +1,6 @@
 <?php require 'server.php'; ?>
 <!DOCTYPE html>
-<html class="no-js">
+<html class="no-js" lang="it">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="description" content="">
@@ -43,8 +43,7 @@
    <div class="row">
      <div class="contact-form col-md-12 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="250ms">
        <div class="title text-center wow fadeIn" data-wow-duration="1500ms" >
-         <font size ="70" face="Patrick Hand">RICERCA <span class="color">ATTIVITÀ</span></font>
-         <div class="border"></div>
+         RICERCA <span class="color">ATTIVITÀ</span>
        </div>
        <div class="wrap-about" align="center">
          <h3 font size="20">
@@ -63,7 +62,7 @@
                 <?php $current = date('Y-m-d\TH:i'); echo " value=\"$current\" min=\"$current\"" ?>>
             </div>
             <div class="form-group col-md-12">
-                	<button type="submit" style="background-color:#333333" class="btn btn-primary" name="ricerca-attivita" onclick="document.href='#ricerca';"><font color="white">Ricerca Attività</font></button>
+                	<button type="submit" style="background-color:#333333" class="btn btn-primary" name="ricerca-attivita" onclick="document.href='#ricerca';">Ricerca Attività</button>
             </div>
           </form>
         </h3>
