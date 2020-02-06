@@ -4,7 +4,7 @@ require 'server.php';
 
 ?>
 <!DOCTYPE html>
-<html class="no-js">
+<html class="no-js" lang="it">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="description" content="">
@@ -46,7 +46,7 @@ require 'server.php';
       <div class="row">
         <div class="title text-center wow fadeIn" data-wow-duration="1500ms" >
           <br />
-          <font size ="70" face="Patrick Hand">COS'È <span class="color">CICERONE</span>&nbsp?</font>
+          COS'È <span class="color">CICERONE</span>
           <div class="border"></div>
         </div>
         <h2 align="center">Cicerone è l'amico guida del viaggiatore!

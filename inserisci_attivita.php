@@ -8,7 +8,7 @@ if (!isset($_SESSION['id'])) {
 
 ?>
 <!DOCTYPE html>
-<html class="no-js"> <!--<![endif]-->
+<html class="no-js" len="en"> <!--<![endif]-->
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="description" content="">
@@ -51,10 +51,10 @@ if (!isset($_SESSION['id'])) {
       <div class="row">
         <div class="contact-form col-md-8 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="250ms">
           <div class="title text-center wow fadeIn" data-wow-duration="1500ms" >
-            <font size ="70" face="Patrick Hand">LA TUA <span class="color">ATTIVITÀ</span></font>
+            LA TUA <span class="color">ATTIVITÀ</span>
             <div class="border"></div>
           </div>
-          <div class="wrap-about" align="center">
+          <div class="wrap-about">
             <h3 font size="20">
               <script>
                function Notifica() {
@@ -70,7 +70,6 @@ if (!isset($_SESSION['id'])) {
                 </div>
                 <div class="form-group col-md-5">
                   <label for="categoria">Categoria</label>
-                  <!-- <input required type="text" style="font-size: 20px;" class="form-control" id="categoria" name="categoria" placeholder="Categoria"> -->
                   <br>
                   <select name="categorie" id="categoria" style="background-color:transparent">
                     <?php include 'categorie.php' ?>
@@ -101,7 +100,7 @@ if (!isset($_SESSION['id'])) {
                   <label for="cadenza">Ogni quanti giorni sarà ripetuta?</label>
                   <input required class="form-control" style="font-size: 20px;" id="cadenza" type="number" name="cadenza" min=1>
                 </div>
-                <button type="submit" style="background-color:#333333" class="btn btn-primary" name="inserisci-attivita"><font color="white">Inserisci Attività</font></button>
+                <button type="submit" style="background-color:#333333" class="btn btn-primary" name="inserisci-attivita">Inserisci Attività</button>
               </form>
             </h3>
           </div>

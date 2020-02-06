@@ -90,7 +90,7 @@ if ($stmt = $link->prepare('SELECT u.nome, u.cognome, commento, stelle FROM uten
        <br />
        <?php echo $titolo?>
        <div class="border"></div>
-     	<h3 align="center"><?php echo $descrizione?></h3>
+     	<h3><?php echo $descrizione?></h3>
        <h3>Ti inseressa l'<span class="color">attività</span>?
          
           <form method="post" action="pagina controllo"> <!-- PERMETTE DI PRENOTARSI ALLA ATTIVITA' PER LA PRIMA OCCORRENZA POSSIBILE (?) -->
@@ -157,7 +157,7 @@ if ($stmt = $link->prepare('SELECT u.nome, u.cognome, commento, stelle FROM uten
 <div class="contact-form col-md-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="250ms">
 <?php if(empty($feed)):?>Questa attività non è ancora stata recensita da alcun Globetrotter. Sii il primo a farlo!<?php endif?>
 <?php if ($check!=true):?>
-          <div class="wrap-about" align="center">
+          <div class="wrap-about">
             <h3>
               <script>
                function Notifica() {
