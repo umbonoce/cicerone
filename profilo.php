@@ -109,7 +109,7 @@ if ($stmt = $link->prepare('SELECT a.id, a.titolo, u.nome, u.cognome, commento, 
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="/index.php">
-          <img src="/immagini/cicerone3.png" height="50">
+          <img src="/immagini/cicerone3.png" height="50" alt="">
         </a>
       </div>
       <?php include 'navbar.php' ?>

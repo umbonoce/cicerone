@@ -29,7 +29,7 @@ if( $id_cicerone != $_SESSION['id']){
 }
 ?>
 <!DOCTYPE html>
-<html class="no-js" lang="en"> <!--<![endif]-->
+<html class="no-js" lang="en"> 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="description" content="">
@@ -60,7 +60,7 @@ if( $id_cicerone != $_SESSION['id']){
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="/index.php">
-          <img src="/immagini/cicerone3.png" height="50">
+          <img src="/immagini/cicerone3.png" height="50" alt="">
         </a>
       </div>
       <?php include 'navbar.php' ?>
