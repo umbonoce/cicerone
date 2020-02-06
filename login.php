@@ -8,7 +8,7 @@ if (isset($_SESSION['id'])) {
 
 ?>
 <!DOCTYPE html>
-<html class="no-js"> <!--<![endif]-->
+<html class="no-js" lang="en"> <!--<![endif]-->
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="description" content="">
