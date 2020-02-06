@@ -46,7 +46,7 @@ if ($stmt = $link->prepare('SELECT u.nome, u.cognome, commento, stelle FROM uten
   } 
 ?>
 <!DOCTYPE html>
-<html class="no-js">
+<html class="no-js" lang="it">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="description" content="">
@@ -88,13 +88,13 @@ if ($stmt = $link->prepare('SELECT u.nome, u.cognome, commento, stelle FROM uten
    <div class="row">
      <div class="title text-center " data-wow-duration="1500ms" >
        <br />
-       <font size ="70" face="Patrick Hand"><?php echo $titolo?></font>
+       <?php echo $titolo?>
        <div class="border"></div>
      	<h3 align="center"><?php echo $descrizione?></h3>
        <h3>Ti inseressa l'<span class="color">attività</span>?
          
           <form method="post" action="pagina controllo"> <!-- PERMETTE DI PRENOTARSI ALLA ATTIVITA' PER LA PRIMA OCCORRENZA POSSIBILE (?) -->
-                <button type="submit" style="background-color:#333333" class="btn btn-primary" name="partecipa-attivita"><font color="white">Invia una richiesta di partecipazione</font></button>
+                <button type="submit" style="background-color:#333333" class="btn btn-primary" name="partecipa-attivita">Invia una richiesta di partecipazione</button>
           </form>
      </h3></div>
      <div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms" >
@@ -171,7 +171,7 @@ if ($stmt = $link->prepare('SELECT u.nome, u.cognome, commento, stelle FROM uten
       <label for="descrizione">Hai svolto questa attività, lascia una recensione!</label>
          <textarea required style="font-size: 20px;" rows="5" cols="40" class="form-control" id="feedback" name="feedback" placeholder="Descrivi la tua esperienza"></textarea>
 
-	<button type="submit" style="background-color:#333333" class="btn btn-primary" name="inserisci-feedback"><font color="white">Aggiungi recensione</font></button>
+	<button type="submit" style="background-color:#333333" class="btn btn-primary" name="inserisci-feedback">Aggiungi recensione</button>
 </div></form></h3>
 </div>
 </div>
