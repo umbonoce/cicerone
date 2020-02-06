@@ -50,7 +50,7 @@ if (isset($_SESSION['id'])) {
     <div class="container">
       <div class="row">
         <div class="title text-center wow fadeIn" data-wow-duration="1500ms" >
-          <font size ="70" face="Patrick Hand">PERCHÈ <span class="color">ISCRIVERSI</span>&nbsp?</font>
+          PERCHÈ <span class="color">ISCRIVERSI</span>
           <div class="border"></div>
         </div>
         <div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms" >
@@ -64,7 +64,7 @@ if (isset($_SESSION['id'])) {
         </div>
 
         <div class="contact-form col-md-4 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="250ms">
-          <div class="wrap-about" align="center">
+          <div class="wrap-about">
             <br><i class="fa fa-sign-in-alt fa-4x"></i>
             <div class="about-content text-center">
               <h2>Accedi</h2>
@@ -79,10 +79,10 @@ if (isset($_SESSION['id'])) {
                     <label for="password">Password</label>
                     <input required type="password" style="font-size: 20px;" class="form-control" id="password" name="password" placeholder="Password">
                   </div>
-                	<button type="submit" style="background-color:#333333" class="btn btn-primary" name="login_utente"><font color="white">Accedi</font></button>
+                	<button type="submit" style="background-color:#333333" class="btn btn-primary" name="login_utente">Accedi</button>
                 </form>
                 <h3>Non sei ancora registrato?<br> Iscriviti adesso!<br>
-                	<button type="submit" onclick="window.location.href = '/registrazione.php';" style="background-color:#333333" class="btn btn-primary" ><font color="white">Registrati</font></button>
+                	<button type="submit" onclick="window.location.href = '/registrazione.php';" style="background-color:#333333" class="btn btn-primary" >Registrati</button>
                 </h3>
               </h3>
             </div>
