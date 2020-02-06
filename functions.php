@@ -76,7 +76,6 @@ function upload_immagine(mysqli $link, int $id_attivita, array $dati_immagine)
     echo 'Sorry, your file was not uploaded.';
     // if everything is ok, try to upload file
   } else {
-    if (move_uploaded_file($_FILES['immagine']['tmp_name'], $file)) {
       echo 'The file '. basename( $_FILES['immagine']['name']). ' has been uploaded.';
     } else {
       echo 'Sorry, there was an error uploading your file.';
