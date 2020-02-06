@@ -30,7 +30,7 @@
          <span class="icon-bar"></span>
        </button>
        <a class="navbar-brand" href="/index.php">
-         <img src="/immagini/cicerone3.png" height="50">
+         <img src="/immagini/cicerone3.png" height="50" alt="">
        </a>
      </div>
      <?php include 'navbar.php' ?>
@@ -90,7 +90,7 @@
      <div class="contact-form col-md-12 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="250ms">
       <?php if(count($risultati_ricerca)): ?>
        <div class="title text-center wow fadeIn" data-wow-duration="1500ms" >
-         <a name="#ricerca"><font size ="70" face="Patrick Hand" id="ricerca">RISULTATI <span class="color">RICERCA</span></font>
+         <a name="#ricerca">RISULTATI <span class="color">RICERCA</span>
          <div class="border"></div></a>
        </div>
      <?php endif?>
